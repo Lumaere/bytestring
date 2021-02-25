@@ -74,7 +74,7 @@ flag integer-simple
   default: False
 
 library
-  build-depends:     base >= 4.9 && < 5, ghc-prim, deepseq, template-haskell, array
+  build-depends:     base >= 4.9 && < 5, ghc-prim, deepseq, template-haskell
 
   exposed-modules:   Data.ByteString
                      Data.ByteString.Char8
